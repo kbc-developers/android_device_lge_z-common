@@ -1,4 +1,4 @@
-ifneq ($(filter f340k f340s,$(TARGET_DEVICE)),)
+ifneq ($(filter f340k f340s lgl23,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 

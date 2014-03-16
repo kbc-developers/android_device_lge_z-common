@@ -60,11 +60,11 @@ struct target {
 
 struct target targets[] = {
         {
-                .vendor = "KT",
+                .vendor = "KDDI",
                 .device = "LG G Flex",
-                .build = "F340K",
-                .check_sigs = 0xf8124a4,
-                .hdr = 0xf8b6440,
+                .build = "LGL2310d",
+                .check_sigs = 0xf81261c,
+                .hdr = 0xf8b41c0,
                 .lg = 1,
         },
 };
